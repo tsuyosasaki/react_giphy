@@ -1,6 +1,6 @@
 const initialState = [1, 2, 3, 4, 5];
 
-const imageUrls = (state = initialState, action) => {
+const ImageUrls = (state = initialState, action) => {
   switch (action.type) {
     case 'RECEIVE_DATA':
       return 'data';
@@ -10,4 +10,4 @@ const imageUrls = (state = initialState, action) => {
   }
 };
 
-export default imageUrls;
+export default ImageUrls;

@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
 
-import { imageUrls } from './imageUrls';
+import ImageUrls from './ImageUrls';
 
-export default combineReducers({ imageUrls });
+export default combineReducers({ ImageUrls });
